@@ -23,9 +23,11 @@ class PrimeNumber{
 /*mInputNumber variable stores the number entered by the user as input
   mNum variable stores the if the number is prime or not */
        int mNum,mInputNumber;
-
+ 
+/*scanner takes input from user and system.in takes values from system */
        Scanner sc=new Scanner(System.in);
 
+/*prints a message*/
         System.out.println("enter a number");
         mInputNumber=sc.nextInt();
              if(mInputNumber==1||mInputNumber==0){
