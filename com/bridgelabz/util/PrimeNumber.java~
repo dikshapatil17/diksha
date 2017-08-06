@@ -20,15 +20,19 @@ import java.util.Scanner;
 class PrimeNumber{
    public static void main(String args[]){
  
+/*mInputNumber variable stores the number entered by the user as input
+  mNum variable stores the if the number is prime or not */
        int mNum,mInputNumber;
 
        Scanner sc=new Scanner(System.in);
 
         System.out.println("enter a number");
-          mInputNumber=sc.nextInt();
-
+        mInputNumber=sc.nextInt();
+             if(mInputNumber==1||mInputNumber==0){
+		System.out.println("entered number"+mInputNumber+" not a prime number"); 
+             }
             for(mNum=2;mNum<=mInputNumber;mNum++)
-               if(mInputNumber==0) || (mInputNumber==1){
+               {
                   System.out.println("entered number"+mInputNumber+" not a prime number"); 
                     }           
       
