@@ -1,4 +1,4 @@
-
+package com.bridgelabz.util;
 
 public class WindChill {
 
@@ -11,7 +11,7 @@ public class WindChill {
 
       double result = 35.74+0.6215*temp+(0.4275*temp-35.75)*Math.pow(velocity,0.16);
 
-   System.out.println("value of wind chill is" +result);
+   System.out.println("entered value of wind chill is " +result);
  }
 }
 
