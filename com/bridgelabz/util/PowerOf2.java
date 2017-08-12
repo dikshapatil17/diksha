@@ -1,6 +1,6 @@
 /******************************************************************
 * Compilation: javac -d bin com/bridgelabz/util/PowerOf2.java
-* Execution:   java -cp bin com.bridgelabz.util.PowerOf2 m
+* Execution:   java -cp bin com.bridgelabz/util/PowerOf2 m
 *
 * Purpose: Prints the table of the power of 2.
 *

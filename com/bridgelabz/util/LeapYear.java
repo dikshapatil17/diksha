@@ -1,6 +1,6 @@
 /******************************************************************
 * Compilation: javac -d bin com/bridgelabz/util/LeapYear.java
-* Execution:   java -cp bin com.bridgelabz.util.LeapYear m 
+* Execution:   java -cp bin com.bridgelabz./util/LeapYear m 
 *
 * Purpose: Calculate LeapYear.
 *

@@ -1,6 +1,6 @@
 /******************************************************************
 * Compilation: javac -d bin com/bridgelabz/util/DoubleOpt.java
-* Execution:   java -cp bin com.bridgelabz.util.DoubleOpt m n r
+* Execution:   java -cp bin com.bridgelabz/util/DoubleOpt m n r
 *
 * Purpose: Performs Aritmatic operation on double.
 *

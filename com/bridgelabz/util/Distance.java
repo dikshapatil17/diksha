@@ -1,6 +1,6 @@
 /******************************************************************
 * Compilation: javac -d bin com/bridgelabz/util/Distance.java
-* Execution:   java -cp bin com.bridgelabz.util.Distance m n 
+* Execution:   java -cp bin com.bridgelabz/util/Distance m n 
 *
 * Purpose: calculate the Distance.
 *
