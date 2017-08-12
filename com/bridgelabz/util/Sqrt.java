@@ -1,6 +1,6 @@
 /******************************************************************
 * Compilation: javac -d bin com/bridgelabz/util/Sqri.java
-* Execution:   java -cp bin com.bridgelabz.util/Sqrt c
+* Execution:   java -cp bin com.bridgelabz/util/Sqrt c
 *
 * Purpose: Compute square root of non negative number.
 *

@@ -1,6 +1,6 @@
 /******************************************************************
 * Compilation: javac -d bin com/bridgelabz/util/SpringSeason.java
-* Execution:   java -cp bin com.bridgelabz.util.SpringSeason
+* Execution:   java -cp bin com.bridgelabz/util/SpringSeason
 *
 * Purpose: check whether the entered value is spring or not.
 *

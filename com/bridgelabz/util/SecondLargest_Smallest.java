@@ -1,6 +1,6 @@
 /*********************************************************************************
 * Compilation: javac -d bin com/bridgelabz/util/SecondLargest_Smallest.java
-* Execution:   java -cp bin com.bridgelabz.util/SecondLargest_Smallest
+* Execution:   java -cp bin com.bridgelabz/util/SecondLargest_Smallest
 *
 * Purpose: Find Second Largest and second Smallest number without sorting array.
 *
