@@ -14,21 +14,23 @@
   package com.bridgelabz.util;
   import java.util.Scanner;
  
- /* Class declaration */
+  /* Class declaration */
    public class PrimeInRange{
+  
+      /* input1,input2,flag variables are initalized by datatype integer */
+        static int input1, input2, flag , i, j;
      
     /* main declaration */
       public static void main(String args[]) {
+
+         flag=0;
          
-       /* input1,input2,flag variables are initalized by datatype integer */
-         int input1, input2, flag = 0, i, j;
-         
-          Scanner s = new Scanner(System.in); /* Takes input from user */
+           Scanner scan = new Scanner(System.in); /* Takes input from user */
          
          System.out.println ("Enter the lower limit :"); 
-         input1 = s.nextInt();
+         input1 = scan.nextInt();
          System.out.println ("Enter the upper limit :"); 
-         input2 = s.nextInt();
+         input2 = scan.nextInt();
          System.out.println ("The prime numbers in between the entered limits are :");
          
            for(i = input1; i <= input2; i++)
@@ -36,12 +38,14 @@
              for( j = 2; j < i; j++)
              {
                  if(i % j == 0)
-                 
-                     
+                 {
+                     flag = 0;
                      break;
-                 
+                 }
                  else
-                 
+                 {
+                     flag = 1;
+                 }
              }
              if(flag == 1)
              {

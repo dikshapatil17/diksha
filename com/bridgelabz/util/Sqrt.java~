@@ -29,11 +29,10 @@
 
     double epsilon = 1e-15;    /*relative error tolerance */
        
-    double t = c;              /* estimate of the square root of c
-
- */       
+    double t = c;              /* estimate of the square root of c*/       
  
-   /* repeatedly apply Newton update step until desired precision is achieved */
+   
+    /* repeatedly apply Newton update step until desired precision is achieved */
        
          while (Math.abs(t - c/t) > epsilon*t)
     {
