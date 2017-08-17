@@ -15,7 +15,9 @@
  import java.util.Scanner;
 
  /* Class declaration */
-class TemperatureConversion {
+  class TemperatureConversion {
+
+   static int tempCel,tempFar,Result,ResultFar,ResultCel;
 
   /* main declaration */
  public static void main(String args[]){
@@ -25,8 +27,8 @@ class TemperatureConversion {
  /* parse is a method which takes a string(input) as an argument and convert in integer.
      tempCel,tempFar variables stores the number entered by the user as input */
    
-  int tempCel= Integer.parseInt(args[0]);
-  int tempFar= Integer.parseInt(args[1]);
+   tempCel= Integer.parseInt(args[0]);
+   tempFar= Integer.parseInt(args[1]);
   
   /* Prints the value of celcius and fahrenhite taken from user */
    System.out.println();
@@ -39,19 +41,19 @@ class TemperatureConversion {
     System.out.println();
 
      System.out.println("enter your choice");
-     int Result=scan.nextInt();
+      Result=scan.nextInt();
 
       System.out.println("the entered choice is " +Result);
 
     switch(Result)  
    {
-     case 1: int ResultFar = (tempCel*9/5)+32; /* convert temperature to fahrenhite */
-            System.out.println(" The" +tempCel+" in celcius is converted to " +ResultFar+ "in Fahrenhite");
-            break;
+     case 1:  ResultFar = (tempCel*9/5)+32; /* convert temperature to fahrenhite */
+              System.out.println(" The" +tempCel+" in celcius is converted to " +ResultFar+ "in Fahrenhite");
+              break;
 
-     case 2: int ResultCel =(tempFar-32)*5/9;  /* convert temperature to celcius */
-            System.out.println(" The" +tempFar+ "in Fahrenhite is converted to " +ResultCel+ "in Celcius");
-            break;
+     case 2:  ResultCel =(tempFar-32)*5/9;  /* convert temperature to celcius */
+              System.out.println(" The" +tempFar+ "in Fahrenhite is converted to " +ResultCel+ "in Celcius");
+              break;
      
      default: System.out.println("invalid entry");
   }

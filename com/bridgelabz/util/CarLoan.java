@@ -1,6 +1,6 @@
 /******************************************************************
 * Compilation: javac -d bin com/bridgelabz/util/CarLoan.java
-* Execution:   java -cp bin com.bridgelabz.util/CarLoan m n r
+* Execution:   java -cp bin com.bridgelabz.util/CarLoan 
 *
 * Purpose: Performs operation to calculate payment.
 *
@@ -15,6 +15,7 @@
  
  /* Class declaration */
  class CarLoan {
+   static double principal,rate,year;
  
     /* main declaration */
     public static void main(String[] args) {
@@ -22,9 +23,9 @@
   /* parse is a method which takes a string(input) as an argument and convert in double.
      principle,rate,year variables stores the number entered by the user as input */
         
-  double principal=Double.parseDouble(args[0]);
-  double rate=Double.parseDouble(args[1]);
-  double year=Double.parseDouble(args[2]);
+       principal=Double.parseDouble(args[0]);
+       rate=Double.parseDouble(args[1]);
+       year=Double.parseDouble(args[2]);
   
     System.out.println("the entered principal is" +principal+ " rate is " +rate+ "and year is "+year);
 

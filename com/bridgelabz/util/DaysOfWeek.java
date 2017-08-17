@@ -25,7 +25,7 @@
   int month = Integer.parseInt(args[1]);
   int year = Integer.parseInt(args[2]);
   
-    System.out.println("the entered day is" +day+ " month is " +month+ " and year is" +year);
+    System.out.println("the entered day is " +day+ " month is " +month+ " and year is " +year);
 
      /* Performs the following operations */
       int y = year-(14-month)/12;  /* calculate year */
@@ -39,19 +39,30 @@
      /* prints the output */
 	if(d == 1)
         {
-       System.out.println("The Day of week is " +d "and it is Monday");
+       System.out.println("The Day of week is " +d+ " and it is Monday");
+        }
         else if(d == 2)
-       System.out.println("The Day of week is " +d "and it is Tuesday");
-        else if(d == 3)
-       System.out.println("The Day of week is " +d "and it is Wednesday");
-        else if(d == 4)
-       System.out.println("The Day of week is " +d "and it is Thrusday");
-       else if(d == 5)
-       System.out.println("The Day of week is " +d "and it is Friday");
-       else if(d == 6)
-       System.out.println("The Day of week is " +d "and it is Saturday");
-       else 
-       System.out.println("The Day of week is " +d "and it is sunday");
+      {
+       System.out.println("The Day of week is " +d+ " and it is Tuesday");
+       } 
+       else if(d == 3)
+        {
+       System.out.println("The Day of week is " +d+ " and it is Wednesday");
+       } 
+          else if(d == 4)
+       {
+        System.out.println("The Day of week is " +d+ " and it is Thrusday");
+       }
+        else if(d == 5)       
+       {
+       System.out.println("The Day of week is " +d+ " and it is Friday");
+       }
+        else if(d == 6)
+       {
+       System.out.println("The Day of week is " +d+ " and it is Saturday");
+       }
+        else {
+       System.out.println("The Day of week is " +d+ " and it is sunday");
        }
  }
 }
