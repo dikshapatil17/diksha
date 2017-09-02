@@ -16,29 +16,31 @@
  /* Class declaration */
  class Trig{
 
+    static double sine,cosine,tangent,result,degree,radian;
+
   /* main declaration */
   public static void main(String args[]){
 
   /* parse is a method which takes a string(input) as an argument and convert in double.
      degree,radian variables stores the number entered by the user as input */
 
-   double degree=Double.parseDouble(args[0]);
-   double radian=Double.parseDouble(args[1]);
+    degree=Double.parseDouble(args[0]);
+    radian=Double.parseDouble(args[1]);
 
   /* Perform Trignometric calculation */
-      double s=Math.sin(radian);
-      System.out.println("sin("+degree+")="+s);
+      sine=Math.sin(radian);
+      System.out.println("sin("+degree+")="+sine);
 
    
-      double c=Math.cos(radian);
-      System.out.println("cos("+degree+")="+c);
+      cosine=Math.cos(radian);
+      System.out.println("cos("+degree+")="+cosine);
 
    
-      double t=Math.tan(radian);
-      System.out.println("tan("+degree+")="+t);
+      tangent=Math.tan(radian);
+      System.out.println("tan("+degree+")="+tangent);
 
    
-     double r=s*s+c*c;
-     System.out.println(s*s+"+"+c*c+"="+r);
+     result=sine*sine+cosine*cosine;
+     System.out.println(sine*sine+"+"+cosine*cosine+"="+result);
    }
  }

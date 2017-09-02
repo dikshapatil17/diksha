@@ -1,6 +1,6 @@
 /******************************************************************
 * Compilation: javac -d bin com/bridgelabz/util/PrimeFactor.java
-* Execution:   java -cp bin com.bridgelabz.util/PrimeFactor
+* Execution:   java -cp bin com.bridgelabz/util/PrimeFactor
 *
 * Purpose: Performs Prime Factorization.
 *
@@ -17,13 +17,15 @@
     /* Class declaration */
      class PrimeFactors{
 
+    static int number;
+
    /* main declaration */
     public static void main(String args[]){
 
     Scanner sc=new Scanner(System.in); /* Takes input from user */
     System.out.println("Enter any Number to find Prime Factors ");   
 
-     int number=sc.nextInt();
+      number=sc.nextInt();
      System.out.println("Given Number is : " + number);
      System.out.print("Prime Factors are : " );
         

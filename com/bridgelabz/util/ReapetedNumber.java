@@ -1,6 +1,6 @@
 /******************************************************************
 * Compilation: javac -d bin com/bridgelabz/util/ReapetedNumber.java
-* Execution:   java -cp bin com.bridgelabz/util/ReapetedNumber
+* Execution:   java -cp bin com/bridgelabz/util/ReapetedNumber
 *
 * Purpose: Find the Repeated numbers from array.
 *
@@ -16,6 +16,8 @@
    /* Class declaration */
    class ReapetedNumber
  {
+     static int[] arr;  
+
     /* main declaration */
     public static void main(String[] args) 
     {

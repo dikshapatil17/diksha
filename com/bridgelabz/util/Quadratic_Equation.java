@@ -1,6 +1,6 @@
 /******************************************************************
 * Compilation: javac -d bin com/bridgelabz/util/Quadratic_Equation.java
-* Execution:   java -cp bin com.bridgelabz.util.Quadratic_Equation
+* Execution:   java -cp bin com/bridgelabz/util/Quadratic_Equation
 *
 * Purpose: Performs Quadratic Equation.
 *
@@ -16,6 +16,9 @@
 
   /* Class declaration */ 
   public class Quadratic_Equation {
+
+    static int mInput1,mInput2,mInput3;
+    static double root1,root2,d;
 
     /* main declaration */
     public static void main(String[] args) {

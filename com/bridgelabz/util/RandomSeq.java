@@ -1,6 +1,6 @@
 /******************************************************************
-* Compilation: javac -d bin com/bridgelabz/util/CarLoan.java
-* Execution:   java -cp bin com.bridgelabz.util.CarLoan m n r
+* Compilation: javac -d bin com/bridgelabz/util/RandomSeq.java
+* Execution:   java -cp bin com/bridgelabz/util/RandomSeq
 *
 * Purpose: Performs operation to calculate payment.
 *
@@ -16,15 +16,17 @@
   /* Class declaration */
   public class RandomSeq {
 
+     static int inputNo;
+
    /* main declaration */
   public static void main(String args[]){
 
    /* parse is a method which takes a string(input) as an argument and convert in integer.
      inputNo variables stores the number entered by the user as input */
  
-    int inputNo=Integer.parseInt(args[0]);
+     inputNo=Integer.parseInt(args[0]);
 
-      for(int i=0;i<10;i++)
+      for(int i=0;i<inputNo;i++)
        
         {
                

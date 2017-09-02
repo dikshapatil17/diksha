@@ -1,6 +1,6 @@
 /******************************************************************
 * Compilation: javac -d bin com/bridgelabz/util/TemperatureConversion.java
-* Execution:   java -cp bin com.bridgelabz.util.TemperatureConversion
+* Execution:   java -cp bin com/bridgelabz/util/TemperatureConversion
 *
 * Purpose: convert temperature to celcius and fahrenhite .
 *

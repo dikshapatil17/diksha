@@ -15,54 +15,56 @@
 /* Class declaration */
  class DaysOfWeek {
 
+     static int day,month,year;
+
     /* main declaration */
     public static void main(String[] args) {
     
   /* parse is a method which takes a string(input) as an argument and convert in integer.
      day,month,year variables stores the number entered by the user as input */    
   
-  int day = Integer.parseInt(args[0]);
-  int month = Integer.parseInt(args[1]);
-  int year = Integer.parseInt(args[2]);
+      day = Integer.parseInt(args[0]);
+      month = Integer.parseInt(args[1]);
+      year = Integer.parseInt(args[2]);
   
     System.out.println("the entered day is " +day+ " month is " +month+ " and year is " +year);
 
      /* Performs the following operations */
-      int y = year-(14-month)/12;  /* calculate year */
+      int y0 = year-(14-month)/12;  /* calculate year */
 
-      int x = y+(y/4)-(y/100)+(y/400); /* calculate leap year */
+      int x0 = y0+(y0/4)-(y0/100)+(y0/400); /* calculate leap year */
 
-      int m = month+12*((14-month)/12)-2; /* calculate month */
+      int m0 = month+12*((14-month)/12)-2; /* calculate month */
 
-      int d = (day+x+(31*m)/12)%7; /* calculate day */
+      int d0 = (day+x0+(31*m0)/12)%7; /* calculate day */
 
      /* prints the output */
-	if(d == 1)
+	if(d0 == 1)
         {
-       System.out.println("The Day of week is " +d+ " and it is Monday");
+       System.out.println("The Day of week is " +d0+ " and it is Monday");
         }
-        else if(d == 2)
+        else if(d0 == 2)
       {
-       System.out.println("The Day of week is " +d+ " and it is Tuesday");
+       System.out.println("The Day of week is " +d0+ " and it is Tuesday");
        } 
-       else if(d == 3)
+       else if(d0 == 3)
         {
-       System.out.println("The Day of week is " +d+ " and it is Wednesday");
+       System.out.println("The Day of week is " +d0+ " and it is Wednesday");
        } 
-          else if(d == 4)
+          else if(d0 == 4)
        {
-        System.out.println("The Day of week is " +d+ " and it is Thrusday");
+        System.out.println("The Day of week is " +d0+ " and it is Thrusday");
        }
-        else if(d == 5)       
+        else if(d0 == 5)       
        {
-       System.out.println("The Day of week is " +d+ " and it is Friday");
+       System.out.println("The Day of week is " +d0+ " and it is Friday");
        }
-        else if(d == 6)
+        else if(d0 == 6)
        {
-       System.out.println("The Day of week is " +d+ " and it is Saturday");
+       System.out.println("The Day of week is " +d0+ " and it is Saturday");
        }
         else {
-       System.out.println("The Day of week is " +d+ " and it is sunday");
+       System.out.println("The Day of week is " +d0+ " and it is sunday");
        }
  }
 }

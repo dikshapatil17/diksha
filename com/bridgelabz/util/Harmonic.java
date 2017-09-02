@@ -1,6 +1,6 @@
 /******************************************************************
-* Compilation: javac -d bin com/bridgelabz/util/CarLoan.java
-* Execution:   java -cp bin com.bridgelabz/util/CarLoan m n r
+* Compilation: javac -d bin com/bridgelabz/util/Harmonic.java
+* Execution:   java -cp bin com.bridgelabz/util/Harmonic
 *
 * Purpose: Performs operation to calculate payment.
 *

@@ -40,10 +40,12 @@
                  }
                       total++;
            }
-                    System.out.println("number of heads appeared is " +head+ " where number of tails are "+tails);
+               System.out.println("number of heads appeared is " +head+ " where number of tails are "+tails);
+                    
                     head_percent=(head*100)/total;
                     tails_percent=(tails*100)/total;
-                    System.out.println("percentage of heads appeared is " +head_percent+ " where percentage of tails are "+tails_percent);
+                    
+             System.out.println("percentage of heads appeared is " +head_percent+ " where percentage of tails are "+tails_percent);
          }
   }
 

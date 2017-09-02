@@ -15,6 +15,8 @@
  
   /* Class declaration */
   public class LeapYear{
+    
+     static int year;
 
  /* main declaration */  
  public static void main(String args[]){
@@ -22,7 +24,7 @@
     /* parse is a method which takes a string(input) as an argument and convert in double.
        year variables stores the number entered by the user as input */
 
-     int year=Integer.parseInt(args[0]);
+      year=Integer.parseInt(args[0]);
 
   /* boolean value to return true or false */
    boolean isLeapYear;

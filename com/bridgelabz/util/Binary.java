@@ -1,6 +1,6 @@
 /******************************************************************
 * Compilation: javac -d bin com/bridgelabz/util/Binary.java
-* Execution:   java -cp bin com.bridgelabz/util/Binary 
+* Execution:   java -cp bin com/bridgelabz/util/Binary 
 *
 * Purpose: print Binary representation of decimal numbers.
 *
@@ -13,30 +13,30 @@
 
 public class Binary { 
 
-	static int n,power;
+	static int inputNo,power;
     		public static void main(String[] args) { 
 
         	// read in the command-line argument
-        	 n = Integer.parseInt(args[0]);
+        	 inputNo = Integer.parseInt(args[0]);
 
         	// set power to the largest power of 2 that is <= n
         	 power = 1;
-        	while (power <= n/2) {
+        	while (power <= inputNo/2) {
             		power *= 2;
         	}
   
-        	// check for presence of powers of 2 in n, from largest to smallest
+        	// check for presence of powers of 2 in inputNo, from largest to smallest
         	while (power > 0) {
 
-            	// power is not present in n 
-            	if (n < power) {
+            	// power is not present in inputNo 
+            	if (inputNo < power) {
                 	System.out.print(0);
             	}
 
-            	// power is present in n, so subtract power from n
+            	// power is present in n, so subtract power from inputNo
             	else {
                 	System.out.print(1);
-                	n -= power;
+                	inputNo -= power;
             	}
 
             	// next smallest power of 2

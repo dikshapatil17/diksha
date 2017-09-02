@@ -16,6 +16,8 @@
   /* Class declaration */
      public class Sqrt {
 
+       static double c,epsilon,t;
+
    /* main declaration */
        public static void main(String[] args) { 
 
@@ -24,12 +26,12 @@
    /* parse is a method which takes a string(input) as an argument and convert in double.
       c variables stores the number entered by the user as input */
 
-     double c = Double.parseDouble(args[0]);
+      c = Double.parseDouble(args[0]);
 
 
-    double epsilon = 1e-15;    /*relative error tolerance */
+     epsilon = 1e-15;    /*relative error tolerance */
        
-    double t = c;              /* estimate of the square root of c*/       
+     t = c;              /* estimate of the square root of c*/       
  
    
     /* repeatedly apply Newton update step until desired precision is achieved */

@@ -1,6 +1,6 @@
 /******************************************************************
 * Compilation: javac -d bin com/bridgelabz/util/IntOpt.java
-* Execution:   java -cp bin com.bridgelabz.util.IntOpt m n r
+* Execution:   java -cp bin com.bridgelabz.util.IntOpt 
 *
 * Purpose: Performs Aritmatic operation on integer.
 *
@@ -16,23 +16,26 @@
  /* Class declaration */
  class IntOpt {
 
+        static int input1,input2,input3;
+        static double result1,result2,result3;
+
        /* main declaration */
       public static void main(String[] args) {
     
    /* parse is a method which takes a string(input) as an argument and convert in double.
      input1.input2,input3 variables stores the number entered by the user as input */    
 
-    int input1=Integer.parseInt(args[0]);
-    int input2=Integer.parseInt(args[1]);
-    int input3=Integer.parseInt(args[2]);
+     input1=Integer.parseInt(args[0]);
+     input2=Integer.parseInt(args[1]);
+     input3=Integer.parseInt(args[2]);
  
      /* Performs the following operations */
 
-         double result1 = (input1 + input2 * input3);
+          result1 = (input1 + input2 * input3);
 
-         double result2 = (input1 * input2 + input3);
+          result2 = (input1 * input2 + input3);
 
-         double result3 = (input1 % input2 + input3); 
+          result3 = (input1 % input2 + input3); 
         
       /* prints the output */
 

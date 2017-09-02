@@ -1,6 +1,6 @@
 /******************************************************************
 * Compilation: javac -d bin com/bridgelabz/util/RollDie.java
-* Execution:   java -cp bin com.bridgelabz.util/RollDie
+* Execution:   java -cp bin com.bridgelabz/util/RollDie
 *
 * Purpose:  This program simulates rolling a pair of dice.
 *           The number that comes up on each die is output,

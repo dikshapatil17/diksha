@@ -1,6 +1,6 @@
 /******************************************************************
 * Compilation: javac -d bin com/bridgelabz/util/WindChill.java
-* Execution:   java -cp bin com.bridgelabz.util/WindChill  
+* Execution:   java -cp bin com/bridgelabz/util/WindChill  
 *
 * Purpose: To find WindChill.
 *

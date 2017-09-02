@@ -16,13 +16,15 @@
   /* Class declaration */
   public class PowerOf2 {
 
+   static int inputNo;
+
   /* main declaration */
   public static void main(String args[]){
   
    /* parse is a method which takes a string(input) as an argument and convert in Integer.
      inputNo variables stores the number entered by the user as input */
     
-   int inputNo=Integer.parseInt(args[0]);
+        inputNo=Integer.parseInt(args[0]);
     
        /* inputNo>31 will overflow an int */
 

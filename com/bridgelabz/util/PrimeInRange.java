@@ -1,6 +1,6 @@
 /******************************************************************
 * Compilation: javac -d bin com/bridgelabz/util/PrimeRange.java
-* Execution:   java -cp bin com.bridgelabz.util/PrimeRange 
+* Execution:   java -cp bin com.bridgelabz/util/PrimeRange 
 *
 * Purpose: Calculate Prime numbers in given range.
 *
