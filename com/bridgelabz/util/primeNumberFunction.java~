@@ -14,34 +14,29 @@
 
  package com.bridgelabz.util;
 
-
-public class primeNumberFunction 
+public class PrimeNumberFunction 
 {
+   
 	 public static void main (String args[]) 
            { 
-	    
-            int j = 0;
-
-             for (int i = 0; i < 100; i++)
-	       {
-                isPrime(i); 
-                System.out.println("Prime nums are:" + i);
-               }
+	    int number=Integer.parseInt(args[0]);
+    	      isPrime(number);
+            
+               
             }
-    	  public static boolean isPrime (int j)
+    	  public static void isPrime (int num)
    	   {
-             int i=0;  
-             for (j = 2; j < i; j++)
-              {
-               if (i % j == 0) 
+             
+               if ((num % 2 == 0) && (num !=2)) 
                  {
-                  return false;
+                  System.out.println("it is not a prime number");
                  }
-               if (i == j) 
+               else 
                  {
-                  return true;
+                  System.out.println("it is a prime number");
                  }
-              }
+                     
+              
            }
 }
 

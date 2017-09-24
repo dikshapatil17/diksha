@@ -11,7 +11,6 @@
 *
 ********************************************************************/
 
-
  package com.bridgelabz.util;
 
 class MathFunctions
@@ -26,7 +25,7 @@ class MathFunctions
 	{
         	double mHarmonicNumber = 0;
         
-        	for( int i=1; i<=number; i++)
+        	for( int i=0; i<=number; i++)
        		{
          		System.out.print("1/"+i);
    
